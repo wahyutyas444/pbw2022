@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        *   {
+            padding: 0%;
+            margin: 0%;
+            text-decoration: none;
+        }
+
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 100%;
+            height: 100%;
+        }
+
+        header {
+            height : 25%;
+            width: 100%;
+            margin: auto;
+            background-color: #EED6D3;
+        }
+
+        header h1 {
+            color: #67595E;
+            padding-left: 30px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-right: 30px;
+        }
+
+        header p {
+            color: #C59894;
+            padding-left: 30px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-right: 30px;
+        }
+
+        .boxbody {
+            height: 5%;
+            background-color: #A49393;
+            color: #EDE4E0;
+            padding-bottom: 5px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            padding-left: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+        }
+
+        li a {
+            color:#665A48;
+            padding-left: 30px;
+            padding-top: 10px;
+            padding-bottom: 15px;
+            padding-right: 30px;
+        }
+
+        li a:hover {
+            background-color: #EDE4E0;
+            color: #665A48;
+        }
+
+        article {
+            height: 50%;
+            background-color: white;
+            margin-top: 5px;
+        }
+
+        .boxarticle{
+            padding-left: 30px;
+            padding-top: 10px;
+            padding-bottom: 15px;
+            padding-right: 30px;
+            background-color: white;
+        }
+
+        h3 {
+            color:  black;
+            margin-bottom: 10px;
+            margin-top: 5px;
+        }
+
+        footer {
+            padding-left: 30px;
+            padding-top: 10px;
+            padding-bottom: 15px;
+            padding-right: 30px;
+            background-color: #EDE4E0;
+        }
+
+        .footer {
+            color: #665A48;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Title Site</h1>
+        <p><strong>#tagline</strong></p>
+    </header>
+
+    <section class="boxbody">
+        <nav>
+            <ul>
+                <li><a href="#" class="active"><strong>Menu1</strong></a></li>
+                <li><a href="#"><strong>Menu2</strong></a></li>
+                <li><a href="#"><strong>Menu3</strong></a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <article>
+        <section class="boxarticle">
+            <h3>Title Article</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint animi neque eligendi itaque odit. Sunt perspiciatis vero ipsam iusto. Expedita eveniet non asperiores quod ea?</p>
+        </section>
+        <section class="boxarticle">
+            <h3>Title Article</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate assumenda asperiores aut perspiciatis. Nam, atque? Placeat impedit culpa voluptate eligendi in fuga distinctio ducimus neque?</p>
+        </section>
+        <section class="boxarticle">
+            <h3>Title Article</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate assumenda asperiores aut perspiciatis. Nam, atque? Placeat impedit culpa voluptate eligendi in fuga distinctio ducimus neque?</p>
+        </section>
+    </article>
+
+    <footer>
+        <p class="footer"><strong>Copyright 2022</strong></p>
+    </footer>
+</body>
+</html>
